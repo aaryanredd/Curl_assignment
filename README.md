@@ -6,8 +6,19 @@ The code has two classes
 
 2) Another class is of bank that called curl which is parent class to above class and has member functions to cut or add balance upon withdrawl or deposit respectively, it has data members balance that is the money bank has and information of its users
 
-To use this program, run it will ask you to enter account number which is being used as the primary identification of every account.
+To use this program, run the curl_assignment.cpp file, it will ask you to enter account number which is being used as the primary identification of every account.
 
 Upon entering the password if it is correct you will have successfully logged in and a menu will appear enabling user to choose among withdrawl/deposit/check balance
 
 If deposit/withdrawl is chosen it will ask you the amount and if the transaction is possible it will show a successful message.
+
+Users are by default pre defined. There are two users
+1) account number: 1
+   password: aaryan
+   initial acc balance: 100000
+
+2) account number: 2
+   password: aaryan
+   initial acc balance: 100000
+   
+   Bank initially has a balance of 100000000
